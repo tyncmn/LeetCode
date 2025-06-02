@@ -1,8 +1,8 @@
-package main
+package palindrome
 
 import "fmt"
 
-func isPalindrome(x int) bool {
+func IsPalindrome(x int) bool {
 	if x < 0 {
 		return false
 	}
@@ -18,7 +18,7 @@ func isPalindrome(x int) bool {
 	fmt.Println(temp)
 	for i > 0 {
 		a += (temp % 10) * i
-		fmt.Printf("a = %d\n",a)
+		fmt.Printf("a = %d\n", a)
 		temp /= 10
 		i /= 10
 	}
