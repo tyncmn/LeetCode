@@ -1,4 +1,4 @@
-package reverse_integer
+package reverse
 
 func Reverse(x int) int {
 	var result int = 0

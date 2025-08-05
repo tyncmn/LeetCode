@@ -1,4 +1,4 @@
-package main
+package add_two_numbers
 
 import (
 	listnode "leetcode/list_node"

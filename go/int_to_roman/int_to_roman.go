@@ -1,4 +1,4 @@
-package main
+package int_to_roman
 
 func IntToRoman(num int) string {
 	total := ""
