@@ -8,9 +8,10 @@ func main() {
 
 func LongestCommonPrefix(strs []string) string {
 	listLen := len(strs)
-	if listLen == 0 {
+	switch listLen {
+	case 0:
 		return ""
-	} else if listLen == 1 {
+	case 1:
 		return strs[0]
 	}
 	prefix := ""
